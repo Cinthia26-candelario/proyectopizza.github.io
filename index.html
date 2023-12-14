@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script><script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button id="btnScrollToTop" onclick="scrollToTop()"><ion-icon name="chevron-up-outline"></ion-icon></button>
+    <!--menu section-->
+    <div class="contenedor_1">
+        <div class="logo">
+            <img src="./img/img_1.png"> 
+        </div>
+        <div class="Botones">
+            <a href="#servicios">SERVICIOS</a>
+            <a href="#equipo">EQUIPO</a>
+            <a href="#contacto">CONTACTO</a>
+        </div>
+        <div class="Iconos">
+            <i class='bx bxl-youtube' ></i>
+            <i class='bx bxl-twitter' ></i>
+            <i class='bx bxl-instagram' ></i>
+            <i class='bx bxl-facebook-circle'></i>
+        </div>
+    </div>
+    <!--pizzas section-->
+    <section class="slider">
+        <div class="button_container">
+            <button class="before" id="prevBtn"><p><</p></button>
+            <button class="before" id="nextBtn"><p>></p></button>
+        </div>
+        <div class="slider__track">
+            <ul class="slider__list">
+                <li class="slider__slide">
+                    <div class="container">
+                        <div class="contenedor_2">
+                            <div class="texto">
+                                <h2>producto <b>premium</b></h2>
+                            </div>
+                            <h1>PEPERONNI</h1>
+                            <h3 class="texto_contenedor_2" >
+                                Experimenta la explosión de sabor con nuestra Pizza de Pepperoni con masa crujiente y auténtico sabor. </h3>
+                            <button class="button_contenedor_2">¡SOLICITALA AQUÍ!> <span><ion-icon class="icon_contenedor_2" name="play-outline"></ion-icon></span> </button>
+                        </div>   
+                        <div class="container_pizza_bg">
+                            <img class="pizza_bg_contenedor_2" src="./img/pizza_bg_3.png" alt=""> 
+                        </div>
+                    </div>
+                </li>
+                <li class="slider__slide">
+                    <div class="container">
+                        <div class="contenedor_2">
+                            <div class="texto">
+                                <h2>producto <b>premium</b></h2>
+                            </div>
+                            <h1>QUESO</h1>
+                            <h3 class="texto_contenedor_2" >
+                                Seduce tu paladar: Pizza de Queso con masa crujiente y auténtico sabor. ¡Ordénala ya!</h3>
+                            <button class="button_contenedor_2">¡SOLICITALA AQUÍ!> <span><ion-icon class="icon_contenedor_2" name="play-outline"></ion-icon></span> </button>
+                        </div>   
+                        <div class="container_pizza_bg">
+                        <img class="pizza_bg_contenedor_2" src="./img/pizza_bg_2.png" alt=""> 
+                        </div>
+                    </div>
+                </li>
+                <li class="slider__slide">
+                    <div class="container">
+                        <div class="contenedor_2">
+                            <div class="texto">
+                                <h2>producto <b>premium</h2>
+                            </div>
+                            <h1>MARGARITA</h1>
+                            <h3 class="texto_contenedor_2" >Disfruta la frescura: Pizza Margarita con tomate, mozzarella y albahaca sobre masa crujiente.</h3>
+                            <button class="button_contenedor_2">¡SOLICITALA AQUÍ!> <span><ion-icon class="icon_contenedor_2" name="play-outline"></ion-icon></span> </button>
+                        </div>   
+                        <div class="container_pizza_bg">
+                          <img class="pizza_bg_contenedor_2" src="./img/pizza_bg.jpg" alt=""> 
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    
+    </section>
+    <!--topics section-->
+    <div class="contenedor_principal_2" id="servicios">
+        <div class="title">
+            <p class="title_contenedor_principal_2">LA MEJOR PIZZA DEL MUNDO</p>
+            <p class="subtitle_contenedor_principal_2" >Bienvenidos a pizza world</p>
+            <div class="img_contenedor_principal_2">
+                <img class="img_pizza_contenedor_principal_2" src="./img/pizza_contenedor_principal_2.png" alt="">
+            </div>
+        </div>
+        <div class="topics_contenedor_principal_2">
+            <div class="topic_container">
+                <div class="topic general">
+                    <div class="icon">
+                        <ion-icon class="icon_principal" name="fast-food-outline"></ion-icon>
+                    </div>
+                    <p class="title_topic_general" >INGREDIENTES</p>
+                    <p class="text_topic_general">Frescura que cautiva tu paladar.</p>
+                </div>
+                <div class="topic time">
+                    <div class="icon">
+                        <ion-icon class="icon_principal"  name="time-outline"></ion-icon>
+                    </div>
+                    <p class="title_topic_general" >RÁPIDEZ</p>
+                    <p class="text_topic_general">Servicio ágil, sin comprometer excelencia.</p>
+                </div>
+            </div>
+            <div class="topic_container">
+                <div class="topic pizza">
+                    <div class="icon">
+                        <ion-icon class="icon_principal" name="pizza-outline"></ion-icon>
+                    </div>
+                    <p class="title_topic_general">CALIDAD</p>
+                    <p class="text_topic_general" >Experiencia culinaria de sabores insuperables.</p>
+                </div> 
+                <div class="topic delivery">
+                    <div class="icon">
+                        <ion-icon class="icon_principal" name="bicycle-outline"></ion-icon>
+                    </div>
+                    <p class="title_topic_general">DELIVERY</p>
+                    <p class="text_topic_general">Excelencia y comodidad directa a tu puerta.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--chef section-->
+    <div class="contenedor_principal_3" id="equipo">
+        <div class="contenedor_chefs">
+            <div class="chefs_img_container">
+                <img class="chefs_img" src="./img/chef.jpg" alt="">
+                <div class="information_chefs">    
+                    <div class="text_information_chefs">
+                        <p>José Lopez</p>
+                        <p class="text_information_chefs_assistant" >Asistente</p>
+                    </div>
+                    <div class="icons_social_media_container">
+                        <ion-icon class="icon_social_media" name="logo-facebook"></ion-icon>
+                        <ion-icon class="icon_social_media" name="logo-instagram"></ion-icon>
+                        <ion-icon class="icon_social_media" name="logo-twitter"></ion-icon>
+                        <ion-icon class="icon_social_media" name="logo-linkedin"></ion-icon>
+                    </div>
+                </div>  
+
+            </div>   
+            <div class="chefs_img_container">
+                <img class="chefs_img" src="./img/chef_2.png" alt="">
+                <div class="information_chefs">    
+                    <div class="text_information_chefs">
+                        <p>Henry Griffith</p>
+                        <p class="text_information_chefs_assistant" >Asitente chef</p>
+                    </div>
+                    <div class="icons_social_media_container">
+                        <ion-icon class="icon_social_media" name="logo-facebook"></ion-icon>
+                        <ion-icon class="icon_social_media" name="logo-instagram"></ion-icon>
+                        <ion-icon class="icon_social_media" name="logo-twitter"></ion-icon>
+                        <ion-icon class="icon_social_media" name="logo-linkedin"></ion-icon>
+                    </div>
+                </div>  
+            </div>   
+            <div class="chefs_img_container">
+                <img class="chefs_img" src="./img/chef_3.png" alt="">
+                <div class="information_chefs">    
+                    <div class="text_information_chefs">
+                        <p>Eliza Smith</p>
+                        <p class="text_information_chefs_assistant" >Chef</p>
+                    </div>
+                    <div class="icons_social_media_container">
+                        <ion-icon class="icon_social_media" name="logo-facebook"></ion-icon>
+                        <ion-icon class="icon_social_media" name="logo-instagram"></ion-icon>
+                        <ion-icon class="icon_social_media" name="logo-twitter"></ion-icon>
+                        <ion-icon class="icon_social_media" name="logo-linkedin"></ion-icon>
+                    </div>
+                </div>  
+            </div>   
+            <div class="chefs_img_container">
+                <img class="chefs_img" src="./img/chef_4.png" alt="">
+                <div class="information_chefs">    
+                    <div class="text_information_chefs">
+                        <p>Paulina Vega</p>
+                        <p class="text_information_chefs_assistant" >Asistente</p>
+                    </div>
+                    <div class="icons_social_media_container">
+                        <ion-icon class="icon_social_media" name="logo-facebook"></ion-icon>
+                        <ion-icon class="icon_social_media" name="logo-instagram"></ion-icon>
+                        <ion-icon class="icon_social_media" name="logo-twitter"></ion-icon>
+                        <ion-icon class="icon_social_media" name="logo-linkedin"></ion-icon>
+                    </div>
+                </div>  
+            </div>   
+        </div>
+    </div>
+    <!-- gallery image -->
+    <div class="contenedor_principal_4">
+        <div class="container_gallery_image">
+            <div class="gallery_image">
+                <img class="pictures_image" src="./img/queso_gallery.jpg" alt="">
+                <p><box-icon  class="icons_gallery_image" name='cheese' color="white"></box-icon>Queso</p>
+            </div>
+            <div class="gallery_image">
+                <img class="pictures_image" src="./img/vegetables_gallery.jpg" alt="">
+                <p><box-icon class="icons_gallery_image" name='leaf' color="white"></box-icon>Vegetales</p>
+            </div>
+            <div class="gallery_image">
+                <img class="pictures_image" src="./img/sauce_gallery.jpg" alt="">
+                <p><box-icon class="icons_gallery_image" type='solid' name='color-fill' color="white"></box-icon>Salsas</box-icon></p>
+            </div>
+            <div class="gallery_image">
+                <img class="pictures_image" src="./img/beef_gallery.jpg" alt="">
+                <p><box-icon class="icons_gallery_image" name='fork' color="white"></box-icon>Carne</p>
+
+            </div>
+        </div>
+    </div>
+    <!-- form -->
+    <div id="contacto">
+        <div class="contenedor_principal_5">
+            <div class="title_form">
+                <p class="subtitle_form">QUEREMOS CONOCER TU OPINIÓN</p>
+                <p>CONTÁCTANOS</p>
+            </div>
+            <div class="container_form">
+                <div class="form" id="formulario">
+                    <div class="name_form">
+                        <p class="icons_form"><ion-icon name="person-outline"></ion-icon></p>
+                        <input id="nombre" type="text" placeholder="Nombre: ">
+                    </div>
+                    <div class="email_form">
+                        <p class="icons_form"><ion-icon name="mail-outline"></ion-icon></p>
+                        <input id="email" type="email" placeholder="Email:">
+                    </div>
+                </div>
+                <div class="text_form">
+                    <p class="icon_form"><ion-icon name="chatbubbles-outline"></ion-icon></p>
+                    <textarea id="mensaje" name="" id="" cols="50" rows="10" placeholder="Ingrese su mensaje: "></textarea>
+                </div>
+                <div class="buttom_form">
+                    <button class="buttom" onclick="validarFormulario()">Enviar</button>
+                </div>
+                <div id="custom-alert" class="custom-alert">
+                    <p id="custom-alert-message"></p>
+                  </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="container_footer">
+            <div class="icons_footer">
+                <div class="container_icons_footer">
+                    <div class="icon_footer">
+                        <ion-icon class="icono_footer" name="location-outline"></ion-icon>
+                    </div>
+                    <p class="text_footer">Guayaquil - Florida Norte</p>
+                </div>
+                <div class="container_icons_footer">
+                    <div class="icon_footer">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </div>
+                    <div class="text_footer">
+                        <p>pizzeria_ratatouille@gmail.com</p>
+                    </div>
+                </div>
+                <div class="container_icons_footer">
+                    <div class="icon_footer">
+                    <ion-icon  name="call-outline"></ion-icon>
+                    </div>
+                    <div class="text_footer">
+                        <p>009-006-312-236</p>
+                    </div>
+                </div>
+                <div class="container_icons_footer">
+                    <div class="icon_footer">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </div>
+                    <div class="text_footer">
+                        <p>@pizzeria_ratatouille_ec</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+</body>
+<script src="./js/script.js"></script>
+<script src="./js/script2.js"></script>
+<script src="./js/script3.js"></script>
+</html>
